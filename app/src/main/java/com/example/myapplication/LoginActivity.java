@@ -59,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                         if (!task.isSuccessful()) {
                             Log.w(TAG, "signInWithEmail:failed",
                                     task.getException());
-                            Toast.makeText(LoginActivity.this, "Proses Login Gagal\n",
+                            Toast.makeText(LoginActivity.this, "Proses Login Gagal, Coba Lagi\n",
                                     Toast.LENGTH_SHORT).show();
                         } else{
                             Toast.makeText(LoginActivity.this, "Login Berhasil\n" + "Email "+email,
